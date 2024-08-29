@@ -197,8 +197,224 @@
                 designationDropdown.add(option);
             });
         }
+	    function validateMobileNumber() {
+        const mobileNumber = document.querySelector('input[name="mobile_number"]').value;
+        
+        if (!/^\d{10}$/.test(mobileNumber)) {
+            alert("Please enter a valid 10-digit mobile number.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateMobile Number()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateEmergencyContactNumber_1() {
+        const emergencycontactNumber_1 = document.querySelector('input[name="emergency_contact_number_1"]').value;
+        
+        if (!/^\d{10}$/.test(emergencycontactNumber_1)) {
+            alert("Please enter a valid 10-digit mobile number.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateEmergencyContactNumber_1()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateEmergencyContactNumber_2() {
+        const emergencycontactNumber_2 = document.querySelector('input[name="emergency_contact_number_2"]').value;
+        
+        if (!/^\d{10}$/.test(emergencycontactNumber_2)) {
+            alert("Please enter a valid 10-digit mobile number.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateEmergencyContactNumber_2()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateHeight() {
+        const height = document.querySelector('input[name="height"]').value;
+        
+        if (!/^\d{3}$/.test(height)) {
+            alert("Please enter a valid Height.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateHeight()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateWeight() {
+        const weight = document.querySelector('input[name="weight"]').value;
+        
+        if (!/^\d{3}$/.test(weight)) {
+            alert("Please enter a valid Weight.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateWeight()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateLastsalary1() {
+        const lastsalary1 = document.querySelector('input[name="last_salary_1"]').value;
+        
+        if (!/^\d{8}$/.test(lastsalary1)) {
+            alert("Please enter a valid salary.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateLastsalary2()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateLastsalary2() {
+        const lastsalary2 = document.querySelector('input[name="last_salary_2"]').value;
+        
+        if (!/^\d{8}$/.test(lastsalary2)) {
+            alert("Please enter a valid salary.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateLastsalary2()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateLastsalary3() {
+        const lastsalary3 = document.querySelector('input[name="last_salary_3"]').value;
+        
+        if (!/^\d{8}$/.test(lastsalary3)) {
+            alert("Please enter a valid salary.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateLastsalary3()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateLastsalary4() {
+        const lastsalary4 = document.querySelector('input[name="last_salary_4"]').value;
+        
+        if (!/^\d{8}$/.test(lastsalary4)) {
+            alert("Please enter a valid salary.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateLastsalary4()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateLastsalary5() {
+        const lastsalary5 = document.querySelector('input[name="last_salary_5"]').value;
+        
+        if (!/^\d{8}$/.test(lastsalary5)) {
+            alert("Please enter a valid salary.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateLastsalary5()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+
+
+	    function validateReferenceContact1() {
+        const referencecontact1 = document.querySelector('input[name="reference_contact_1"]').value;
+        
+        if (!/^\d{10}$/.test(referencecontact1)) {
+            alert("Please enter a valid 10 digit Mobile Number.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validatereferencecontact1()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateReferenceContact2() {
+        const referencecontact2 = document.querySelector('input[name="reference_contact_2"]').value;
+        
+        if (!/^\d{10}$/.test(referencecontact2)) {
+            alert("Please enter a valid 10 digit Mobile Number.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validatereferencecontact2()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+	    function validateAadharNumber() {
+        const aadharnumber = document.querySelector('input[name="aadhar_no"]').value;
+        
+        if (!/^\d{12}$/.test(aadharnumber)) {
+            alert("Please enter a valid Aadhar number.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateaadharnumber()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+
+
+
+	    function validateUanNumber() {
+        const uannumber = document.querySelector('input[name="uan_no"]').value;
+        
+        if (!/^\d{12}$/.test(uannumber)) {
+            alert("Please enter a valid Uan Number.");
+            return false; // Prevent the form from submitting
+        }
+        return true; // Allow the form to submit
+    }
+
+    document.querySelector('form').onsubmit = function(e) {
+        if (!validateuannumber()) {
+            e.preventDefault(); // Prevent the form from submitting if the validation fails
+        }
+    }
+
     </script>
-</head>
+</head> 
 <body>
     <form action="https://script.google.com/macros/s/AKfycbywyjISMmFTX1vWiOy2mSAmyGkZCeJma6Qu1zGBiGDlnEQhMCiQzVo8W2Q-pQeC7ECfzA/exec" method="post" enctype="multipart/form-data">
         <!-- Section 1: Personal Details -->
@@ -853,7 +1069,7 @@
                 <tr>
                     <td><input type="text" name="pan_no" required></td>
                     <td><input type="tel" name="aadhar_no" pattern="\d{12}" inputmode="numeric" title="Please enter a valid aadhar number."></td>
-                    <td><input type="text" name="esic_no"></td>
+                    <td><input type="number" name="esic_no"></td>
                     <td><input type="tel" name="uan_no" pattern="\d{12}" inputmode="numeric" title="Please enter a valid uan number."></td>
                     
                 </tr>
